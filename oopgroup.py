@@ -8,6 +8,8 @@ class Customer() :
         self.iAccountNumber = iAccountNumber
         self.fBalance = fBalance
 
+#I am editing this file a;sldf;alsdfkjasdf
+
 
 sCustFirst = ""
 sCustLast = ""
