@@ -26,18 +26,12 @@ class Customer:
 
     def return_bill(self, sCustFirstName, sCustLastName, fBalance, Cust_Pet, sBeginDate, sEndDate) :
         #return this statement 
-        # Customer greand2677e with name greg anderson 
+        # Customer greand2677e with name greg anderson  
         # owes $123.50 for charlie's stay
         # from 10/01/2020 to 10/20/2020
         pass
 
     def make_payment(self):
-    pass
-
-        
-class Pet(self, spetName, spetBreed, ipetAge, oCustomerOwner) :
-    def __init__ () :
-        self.pet_name = spetName
-        self.breed = spetBreed
-        self.age = ipetAge
-        self.appointment = Appointment(self, oCustomerOwner)
+        pass
+oCustomer = Customer('matt', 'mecham', '565west 520 north', '356s 900w', 'provo', 'UTAH', '84601' )
+print(oCustomer.sCustID)
