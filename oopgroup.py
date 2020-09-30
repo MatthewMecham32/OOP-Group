@@ -32,6 +32,12 @@ class Customer:
         pass
 
     def make_payment(self):
-        pass
-oCustomer = Customer('matt', 'mecham', '565west 520 north', '356s 900w', 'provo', 'UTAH', '84601' )
-print(oCustomer.sCustID)
+    pass
+
+        
+class Pet(self, spetName, spetBreed, ipetAge, oCustomerOwner) :
+    def __init__ () :
+        self.pet_name = spetName
+        self.breed = spetBreed
+        self.age = ipetAge
+        self.appointment = Appointment(self, oCustomerOwner)
