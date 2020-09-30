@@ -24,14 +24,13 @@ class Customer:
         return sCustID
 
 
-    def return_bill(self, sCustFirstName, sCustLastName, fBalance, Cust_Pet, sBeginDate, sEndDate) :
-        #return this statement 
-        # Customer greand2677e with name greg anderson  
-        # owes $123.50 for charlie's stay
-        # from 10/01/2020 to 10/20/2020
-        pass
+    def return_bill(self) :
+        sBill = "Customer " + self.sCustID + " with name " + self.sCustFirstName + " " + self.sCustLastName + " owes $" + str(self.fBalance) + " for " + str(self.Cust_Pet) + "'s stay from " #+ str(self.sBeginDate) + " to " + str(self.sEndDate)
+
+        return sBill
 
     def make_payment(self):
         pass
 oCustomer = Customer('matt', 'mecham', '565west 520 north', '356s 900w', 'provo', 'UTAH', '84601' )
 print(oCustomer.sCustID)
+print(oCustomer.return_bill())
