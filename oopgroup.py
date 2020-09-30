@@ -27,16 +27,10 @@ class Customer() :
 
     def make_payment():
 
-
-
-#I am editing this file a;sldf;alsdfkjasdf
-
-
-sCustFirst = ""
-sCustLast = ""
-sAddress1 = ""
-sAddress2 = ""
-sCity = ""
-sState = ""
-sZip = ""
-fBalance = ""
+        
+class Pet(self, spetName, spetBreed, ipetAge, oCustomerOwner) :
+    def __init__ () :
+        self.pet_name = spetName
+        self.breed = spetBreed
+        self.age = ipetAge
+        self.appointment = Appointment(self, oCustomerOwner)
